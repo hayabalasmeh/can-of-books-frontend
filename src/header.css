@@ -1,0 +1,16 @@
+a{
+  color:#fff;
+}
+
+a:hover{
+  color:darkgrey;
+}
+
+.potato {
+  position: relative;
+}
+.nav{
+  position: absolute;
+  right:0%;
+  padding: 20px;
+}
