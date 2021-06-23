@@ -30,7 +30,12 @@ class BestBooks extends React.Component {
               <Card.Text>
                 {obj.description}
               </Card.Text>
+              <Card.Text>
+                {obj.status}
+              </Card.Text>
               <Button variant="primary" onClick={() => this.props.deletingBooks(indx)}>Delete</Button>
+
+              <Button variant="primary" onClick={() => this.props.showUpdateForm(indx)}>Update</Button>
             </Card.Body>
           </Card>
           //    return <Carousel>
